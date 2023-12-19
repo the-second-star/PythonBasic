@@ -34,22 +34,22 @@ print (s1)
 print (s2)
 print (s3)
 age = 11
-print (age [0])
+# print (age [0]) # number형은 index 접근 불가능
 age = '11'
-print (age [0])
-a = ''
-b = "Nice to meet you."
-c = 2023
-d = '''안녕하세요^^'''
-e = '2023/10'
-f = """Hello world!"""
-g = 202310
-h = 123
-i = '123'
-j = 0
+# print (age [0]) # number형은 index 접근 불가능
+a = '' # string
+b = "Nice to meet you." # string
+c = 2023 # number
+d = '''안녕하세요^^''' # string
+e = '2023/10' # string
+f = """Hello world!""" # string
+g = 202310 # number
+h = 123 # number
+i = '123' # string
+j = 0 # number
 k = '''프로그래밍 언어는 다양하다.
-파이썬은 프로그래밍 언어이다.'''
-l = "\n"
+파이썬은 프로그래밍 언어이다.''' # string
+l = "\n" # string
 a = 2023
 b = 12
 print(a + b) # 2035
