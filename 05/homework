@@ -1,0 +1,50 @@
+x = int (input( '나이를 입력하세요 : '))
+if x >= 10 and x < 20:
+  print ('10대')
+elif x >= 20 and x < 30:
+  print ('20대')
+elif x >= 30 and x < 40:
+  print ('30대')
+else:
+  print ('10대 미만 or 40대 이상')
+number = 3
+print('A')
+if number < 10 :
+    print('B')
+    if number > 5:
+        print('C')
+    elif number > 2:
+        print('D')
+    else:
+        print('E')
+else:
+    print('F')
+print('G')
+# ABDG
+# for True:
+# for False:
+# while True: ∞ 
+# while False: ∞
+count = int (input ('반복할 횟수를 입력하세요: ')) 
+s = 'Hello, world!'
+print(s * count + ' ')
+count = count + 1
+i = 0
+result_even = 1
+while i <= 100:
+    i = i + 1
+    print (i)
+    if i % 2 == 1:
+        result_even = result_even + i
+print (result_even)
+print('-' * 40)
+print('cm\tmm\tm\tinch')
+print('-' * 40)
+cm = 10
+while cm <= 90:
+    mm = cm * 10  # mm 계산
+    m = cm / 100  # m 계산
+    inch = cm * 0.393701  # inch 계산
+    print('{}\t{}\t{}\t{}'.format(cm, mm, m, inch))       
+    cm += 10 
+print('-' * 40)
